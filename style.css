@@ -1,8 +1,53 @@
+
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 24px;
+    color: white;
+
+}
+
+
+
 .navbar {
     list-style: none;
     display: flex;
     gap: 20px;
     justify-content: flex-end;
-    background-color: #f8f9fa;
+    background-size: cover;
+    background-color: rgb(255, 99, 71, 0.9);
+    width:300vh;
+    color:aliceblue
+}
+
+.want {
+    background-image: url(https://frank-ventures.github.io/basic-website/assets/tomatoes01.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;}
+
+.timer {
+    background-image:url(https://frank-ventures.github.io/basic-website/assets/tomatotimer01.png);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.show {
+    background-image:url(https://frank-ventures.github.io/basic-website/assets/tomatotimer01.png);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.cta {
+  border: 2px solid rgb(248, 245, 245);
+  padding: 20px;
+  width: 300px;
+  background-color:rgba(244, 239, 239, 0.8);
+  position: absolute;      
+  bottom: 0;               
+  left: 0;         
 }
 
