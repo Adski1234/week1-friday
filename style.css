@@ -3,5 +3,6 @@
     display: flex;
     gap: 20px;
     justify-content: flex-end;
+    background-color: #f8f9fa;
 }
 
