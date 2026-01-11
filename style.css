@@ -1,24 +1,22 @@
-
-
-.header {
-    display: flex;
-    justify-content: flex-start;
-    font-size: 24px;
-    color: white;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 
 
 .navbar {
+    width: 100%;
     list-style: none;
     display: flex;
-    gap: 20px;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 50px;
     background-size: cover;
     background-color: rgb(255, 99, 71, 0.9);
-    width:300vh;
-    color:aliceblue
+    width: 600vh;
+    padding: 10px 20px;
 }
 
 .want {
@@ -51,3 +49,11 @@
   left: 0;         
 }
 
+.footer{
+    background-color: rgb(255, 99, 71, 0.9);
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
